@@ -5,14 +5,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İstanbul Üniversitesi | Türk Kamu Diplomasisi Kulübü</title>
+    <title>İÜ Türk Kamu Diplomasisi Kulübü | Hoş Geldiniz</title>
     <style>
-        /* Modern ve Profesyonel Görünüm İçin CSS */
+        /* Modern ve Profesyonel Görünüm İçin Kırmızı-Beyaz Tema */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
+            /* ARKA PLAN: Türk Bayrağı Temalı Ay Yıldız */
             background-color: #f4f4f9;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100"><rect width="100" height="100" fill="%23c8102e"/><circle cx="50" cy="50" r="30" fill="white"/><circle cx="56" cy="50" r="26" fill="%23c8102e"/><polygon points="75,50 82,55 80,45" fill="white"/></svg>'); /* Basit SVG Ay Yıldız */
+            background-size: cover;
+            background-attachment: fixed;
             color: #333;
             display: flex;
             flex-direction: column;
@@ -21,22 +25,23 @@
         }
 
         header {
-            background-color: #1d3557; /* Lacivert tonu - Diplomasiyi temsil eder */
+            background: rgba(200, 16, 46, 0.9); /* Yarı şeffaf kırmızı */
             color: white;
             width: 100%;
-            padding: 2rem 0;
+            padding: 3rem 0;
             text-align: center;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
         .container {
             max-width: 800px;
-            margin: 2rem auto;
+            margin: -50px auto 2rem; /* Header ile birleştirme efekti */
             padding: 2rem;
             background: white;
             border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
             text-align: center;
+            border-top: 5px solid #c8102e; /* Kırmızı üst çizgi */
         }
 
         h1 { margin-bottom: 0.5rem; }
@@ -51,7 +56,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            border: 3px solid #1d3557;
+            border: 5px solid #fff;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             overflow: hidden;
         }
 
@@ -97,7 +103,10 @@
             margin-top: auto;
             padding: 1rem;
             font-size: 0.9rem;
-            color: #888;
+            color: white;
+            background: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            text-align: center;
         }
     </style>
 </head>
@@ -110,29 +119,11 @@
 
 <div class="container">
     <div class="logo-placeholder">
-        <img src="https://via.placeholder.com/150?text=TKDK+LOGO" alt="Kulüp Logosu">
+        <img src="seyit.jpeg" alt="Kulüp Logosu">
     </div>
 
-    <h2>Hoş Geldiniz</h2>
+    <h2>Resmi Web Sayfamıza Hoş Geldiniz</h2>
     <p>
         Türkiye'nin yumuşak gücünü, kültürel değerlerini ve diplomatik vizyonunu 
         akademik bir çatıda temsil etmek için buradayız. İstanbul Üniversitesi'nin 
-        köklü geleneğiyle kamu diplomasisini birleştiriyoruz.
-    </p>
-
-    <div class="social-links">
-        <a href="https://instagram.com/kulup_adresi" target="_blank" class="btn instagram">
-            Instagram'da Takip Et
-        </a>
-        <a href="https://linkedin.com/company/kulup_adresi" target="_blank" class="btn linkedin">
-            LinkedIn'de Bağlan
-        </a>
-    </div>
-</div>
-
-<footer>
-    &copy; 2026 İstanbul Üniversitesi Türk Kamu Diplomasisi Kulübü - Tüm Hakları Saklıdır.
-</footer>
-
-</body>
-</html>
+        köklü
